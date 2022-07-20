@@ -2,5 +2,5 @@
 
 This project is part of the Google Data Analytics course. 
 
-# Research Question: 
+### Research Question: 
 How casual riders and annual members use Cyclistic bikes differently?
