@@ -33,12 +33,14 @@ ORDER BY NamedAshley DESC
 
  -- result: Most babies named Ashley in California (97972), Least amount of babies named Ashley in Wyoming (1387)
 
-/* When did the name Ashley first appear? */
+/* When did the name Ashley first appear (in this dataset)? */
 
 SELECT year, sum(number) AS NamedAshley 
 FROM `bigquery-public-data.usa_names.usa_1910_current`
 Where name = "Ashley" 
 GROUP BY year
 ORDER BY year 
+
+--result: 1914 
 
 Tableu: Compare male and femalre AShley popularity
