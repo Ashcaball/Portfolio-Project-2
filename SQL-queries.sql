@@ -1,4 +1,4 @@
-/* How many people were named Ashley the month/day/year I was born (1999)? */
+/* How many people were named Ashley the year I was born (1999)? */
 
 SELECT sum(number) AS AmountNamedAshley FROM `bigquery-public-data.usa_names.usa_1910_current`
 Where name = "Ashley" AND year = 1999
