@@ -45,4 +45,3 @@ ORDER BY year
 
 --result: 1914 
 
-Tableu: Compare male and femalre AShley popularity
